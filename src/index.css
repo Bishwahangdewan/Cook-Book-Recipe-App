@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #636ed6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Fredoka One;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px #555;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn{
+  padding: 15px 40px;
+  background-color: #D6636E;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-family: Fredoka One;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #555;
+  border-bottom: 5px solid #df4e5c;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  box-shadow: none;
+}
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+}
+
+.mt-5{
+  margin-top: 50px;
+}
+
+.input{
+  padding: 15px 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 8px #555;
+  transition: 0.3s;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.input:focus{
+  outline:none;
+  box-shadow: none;
+}
